@@ -4,7 +4,7 @@ session_start();
 
 $timezone = date_default_timezone_set("America/Toronto");
 
-$con = mysqli_connect("sql202.byethost9.com", "b9_21032201", "905AHMH786", "b9_21032201_firefly"); //Connection variable
+$con = mysqli_connect("", "", "", ""); //Connection variable
 
 if(mysqli_connect_errno()) 
 {

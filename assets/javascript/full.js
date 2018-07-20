@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('#search_text_input').focus(function() {
 		if(window.matchMedia( "(min-width: 800px)" ).matches) {
-			$(this).animate({width: '250px'}, 500);
+			$(this).animate({width: '251px'}, 500);
 		}
 	});
 
